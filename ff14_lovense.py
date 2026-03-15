@@ -30,7 +30,7 @@ urllib3.disable_warnings()
 # ============================================================
 # CONFIG
 # ============================================================
-LOVENSE_DOMAIN = "https://192-168-0-231.lovense.club:30010"
+LOVENSE_DOMAIN = "https://YOUR-LOVENSE-DOMAIN:30010"
 WEBHOOK_PORT = 8069  # Local webhook server port for Dalamud to POST to
 
 # Toy IDs (auto-detected on startup)
@@ -595,3 +595,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
