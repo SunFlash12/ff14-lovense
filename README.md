@@ -1,4 +1,6 @@
-﻿# FF14 Lovense Bridge 🎮
+﻿![The One Bound In Ink](logo.png)
+
+# FF14 Lovense Bridge 🎮
 
 **Feel the game.** Real-time haptic feedback for Final Fantasy XIV using Lovense toys.
 
@@ -135,3 +137,4 @@ MIT -- use it, mod it, share it, feel it.
 
 ## Disclaimer
 This is a third-party tool not affiliated with Square Enix, Final Fantasy XIV, or Lovense. Use at your own risk and discretion. Not responsible for any in-game deaths caused by... distraction. ;)
+
