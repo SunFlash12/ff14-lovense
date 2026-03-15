@@ -30,7 +30,13 @@ urllib3.disable_warnings()
 # ============================================================
 # CONFIG
 # ============================================================
-LOVENSE_DOMAIN = "https://YOUR-LOVENSE-DOMAIN:30010"
+# Try to load local config (not committed to git)
+try:
+    from local_config import LOVENSE_DOMAIN, TOYS as LOCAL_TOYS
+    print("Loaded local config!")
+except ImportError:
+    LOCAL_TOYS = None
+LOVENSE_DOMAIN = os.environ.get("LOVENSE_DOMAIN", "https://YOUR-LOVENSE-DOMAIN:30010")
 WEBHOOK_PORT = 8069  # Local webhook server port for Dalamud to POST to
 
 # Toy IDs (auto-detected on startup)
@@ -595,4 +601,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

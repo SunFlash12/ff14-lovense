@@ -4,3 +4,5 @@
 *.log
 .vscode/
 .idea/
+
+local_config.py
